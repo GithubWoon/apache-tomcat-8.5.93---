@@ -1327,3 +1327,8 @@
 04-Oct-2023 12:25:47.181 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]에 대한 배치가 [254] 밀리초에 완료되었습니다.
 04-Oct-2023 12:25:47.186 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
 04-Oct-2023 12:25:47.295 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2017 ms
+04-Oct-2023 12:33:23.012 INFO [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+04-Oct-2023 12:33:23.012 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+04-Oct-2023 12:33:23.051 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+04-Oct-2023 12:33:23.120 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+04-Oct-2023 12:33:23.138 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
