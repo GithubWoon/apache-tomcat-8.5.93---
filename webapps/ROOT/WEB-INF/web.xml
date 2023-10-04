@@ -26,15 +26,37 @@
         Welcome to Tomcat
     </description>
 
+    <!-- jsp 파일호출 -->
     <servlet>
     <servlet-name>MainPage</servlet-name>
     <jsp-file>/main.jsp</jsp-file>
     </servlet>
 
+    <servlet>
+    <servlet-name>LoginPage</servlet-name>
+    <jsp-file>/test.jsp</jsp-file>
+    </servlet>
+
+    <servlet>
+    <servlet-name>RegisterPage</servlet-name>
+    <jsp-file>/register.jsp</jsp-file>
+    </servlet>
+
+    <!-- URL 경로설정-->
     <servlet-mapping>
     <servlet-name>MainPage</servlet-name>
     <url-pattern>/main</url-pattern> 
     </servlet-mapping> 
+
+    <servlet-mapping>
+    <servlet-name>LoginPage</servlet-name>
+    <url-pattern>/test</url-pattern> 
+    </servlet-mapping>
+
+    <servlet-mapping>
+    <servlet-name>RegisterPage</servlet-name>
+    <url-pattern>/register</url-pattern> 
+    </servlet-mapping>
 
 
 </web-app>

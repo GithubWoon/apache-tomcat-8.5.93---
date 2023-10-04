@@ -1,0 +1,1329 @@
+04-Oct-2023 09:20:21.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/8.5.93
+04-Oct-2023 09:20:21.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Aug 23 2023 22:43:14 UTC
+04-Oct-2023 09:20:21.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  8.5.93.0
+04-Oct-2023 09:20:21.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+04-Oct-2023 09:20:21.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+04-Oct-2023 09:20:21.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+04-Oct-2023 09:20:21.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-11
+04-Oct-2023 09:20:21.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.19+9-LTS-224
+04-Oct-2023 09:20:21.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+04-Oct-2023 09:20:21.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 09:20:21.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 09:20:21.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/conf/logging.properties
+04-Oct-2023 09:20:21.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2023 09:20:21.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2023 09:20:21.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2023 09:20:21.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Oct-2023 09:20:21.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 09:20:21.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 09:20:21.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/temp
+04-Oct-2023 09:20:21.663 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-11\bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\;C:\Users\hbi2\AppData\Local\Microsoft\WindowsApps;C:\Users\hbi2\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-11bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;;.]
+04-Oct-2023 09:20:24.289 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+04-Oct-2023 09:20:25.357 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 13794 ms
+04-Oct-2023 09:20:26.792 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+04-Oct-2023 09:20:26.792 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/8.5.93]
+04-Oct-2023 09:20:26.896 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]을(를) 배치합니다.
+04-Oct-2023 09:20:34.552 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]에 대한 배치가 [7,641] 밀리초에 완료되었습니다.
+04-Oct-2023 09:20:34.553 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]을(를) 배치합니다.
+04-Oct-2023 09:20:38.382 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]에 대한 배치가 [3,829] 밀리초에 완료되었습니다.
+04-Oct-2023 09:20:38.383 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]을(를) 배치합니다.
+04-Oct-2023 09:20:38.821 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]에 대한 배치가 [438] 밀리초에 완료되었습니다.
+04-Oct-2023 09:20:38.821 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]을(를) 배치합니다.
+04-Oct-2023 09:20:39.022 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]에 대한 배치가 [201] 밀리초에 완료되었습니다.
+04-Oct-2023 09:20:39.022 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]을(를) 배치합니다.
+04-Oct-2023 09:20:39.720 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]에 대한 배치가 [698] 밀리초에 완료되었습니다.
+04-Oct-2023 09:20:39.726 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+04-Oct-2023 09:20:40.965 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 15592 ms
+04-Oct-2023 09:21:48.976 INFO [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+04-Oct-2023 09:21:48.976 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+04-Oct-2023 09:21:49.028 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+04-Oct-2023 09:21:49.111 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+04-Oct-2023 09:21:49.131 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+04-Oct-2023 09:22:00.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/8.5.93
+04-Oct-2023 09:22:00.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Aug 23 2023 22:43:14 UTC
+04-Oct-2023 09:22:00.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  8.5.93.0
+04-Oct-2023 09:22:00.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+04-Oct-2023 09:22:00.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+04-Oct-2023 09:22:00.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+04-Oct-2023 09:22:00.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-11
+04-Oct-2023 09:22:00.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.19+9-LTS-224
+04-Oct-2023 09:22:00.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+04-Oct-2023 09:22:00.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 09:22:00.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 09:22:00.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/conf/logging.properties
+04-Oct-2023 09:22:00.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2023 09:22:00.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2023 09:22:00.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2023 09:22:00.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Oct-2023 09:22:00.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 09:22:00.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 09:22:00.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/temp
+04-Oct-2023 09:22:00.246 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-11\bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\;C:\Users\hbi2\AppData\Local\Microsoft\WindowsApps;C:\Users\hbi2\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-11bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;;.]
+04-Oct-2023 09:22:00.287 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+04-Oct-2023 09:22:00.309 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 411 ms
+04-Oct-2023 09:22:00.353 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+04-Oct-2023 09:22:00.353 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/8.5.93]
+04-Oct-2023 09:22:00.353 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]을(를) 배치합니다.
+04-Oct-2023 09:22:00.623 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]에 대한 배치가 [270] 밀리초에 완료되었습니다.
+04-Oct-2023 09:22:00.623 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]을(를) 배치합니다.
+04-Oct-2023 09:22:00.876 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]에 대한 배치가 [253] 밀리초에 완료되었습니다.
+04-Oct-2023 09:22:00.876 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]을(를) 배치합니다.
+04-Oct-2023 09:22:00.922 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]에 대한 배치가 [46] 밀리초에 완료되었습니다.
+04-Oct-2023 09:22:00.922 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]을(를) 배치합니다.
+04-Oct-2023 09:22:00.944 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]에 대한 배치가 [22] 밀리초에 완료되었습니다.
+04-Oct-2023 09:22:00.944 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]을(를) 배치합니다.
+04-Oct-2023 09:22:00.986 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]에 대한 배치가 [42] 밀리초에 완료되었습니다.
+04-Oct-2023 09:22:00.991 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+04-Oct-2023 09:22:01.040 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 727 ms
+04-Oct-2023 09:23:24.355 INFO [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+04-Oct-2023 09:23:24.368 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+04-Oct-2023 09:23:24.400 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+04-Oct-2023 09:23:24.412 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+04-Oct-2023 09:23:24.427 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+04-Oct-2023 09:25:44.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/8.5.93
+04-Oct-2023 09:25:44.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Aug 23 2023 22:43:14 UTC
+04-Oct-2023 09:25:44.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  8.5.93.0
+04-Oct-2023 09:25:44.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+04-Oct-2023 09:25:44.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+04-Oct-2023 09:25:44.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+04-Oct-2023 09:25:44.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-11
+04-Oct-2023 09:25:44.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.19+9-LTS-224
+04-Oct-2023 09:25:44.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+04-Oct-2023 09:25:44.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 09:25:44.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 09:25:44.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/conf/logging.properties
+04-Oct-2023 09:25:44.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2023 09:25:44.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2023 09:25:44.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2023 09:25:44.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Oct-2023 09:25:44.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 09:25:44.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 09:25:44.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/temp
+04-Oct-2023 09:25:44.092 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-11\bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\;C:\Users\hbi2\AppData\Local\Microsoft\WindowsApps;C:\Users\hbi2\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-11bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;;.]
+04-Oct-2023 09:25:44.150 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+04-Oct-2023 09:25:44.178 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 520 ms
+04-Oct-2023 09:25:44.231 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+04-Oct-2023 09:25:44.231 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/8.5.93]
+04-Oct-2023 09:25:44.249 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]을(를) 배치합니다.
+04-Oct-2023 09:25:44.576 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]에 대한 배치가 [327] 밀리초에 완료되었습니다.
+04-Oct-2023 09:25:44.576 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]을(를) 배치합니다.
+04-Oct-2023 09:25:44.876 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]에 대한 배치가 [300] 밀리초에 완료되었습니다.
+04-Oct-2023 09:25:44.876 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]을(를) 배치합니다.
+04-Oct-2023 09:25:44.918 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]에 대한 배치가 [40] 밀리초에 완료되었습니다.
+04-Oct-2023 09:25:44.918 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]을(를) 배치합니다.
+04-Oct-2023 09:25:44.947 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]에 대한 배치가 [29] 밀리초에 완료되었습니다.
+04-Oct-2023 09:25:44.948 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]을(를) 배치합니다.
+04-Oct-2023 09:25:44.993 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]에 대한 배치가 [45] 밀리초에 완료되었습니다.
+04-Oct-2023 09:25:44.996 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+04-Oct-2023 09:25:45.048 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 870 ms
+04-Oct-2023 09:26:24.333 INFO [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+04-Oct-2023 09:26:24.333 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+04-Oct-2023 09:26:24.365 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+04-Oct-2023 09:26:24.408 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+04-Oct-2023 09:26:24.413 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+04-Oct-2023 09:27:50.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/8.5.93
+04-Oct-2023 09:27:50.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Aug 23 2023 22:43:14 UTC
+04-Oct-2023 09:27:50.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  8.5.93.0
+04-Oct-2023 09:27:50.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+04-Oct-2023 09:27:50.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+04-Oct-2023 09:27:50.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+04-Oct-2023 09:27:50.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-11
+04-Oct-2023 09:27:50.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.19+9-LTS-224
+04-Oct-2023 09:27:50.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+04-Oct-2023 09:27:50.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 09:27:50.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 09:27:50.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/conf/logging.properties
+04-Oct-2023 09:27:50.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2023 09:27:50.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2023 09:27:50.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2023 09:27:50.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Oct-2023 09:27:50.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 09:27:50.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 09:27:50.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/temp
+04-Oct-2023 09:27:50.221 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-11\bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\;C:\Users\hbi2\AppData\Local\Microsoft\WindowsApps;C:\Users\hbi2\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-11bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;;.]
+04-Oct-2023 09:27:50.268 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+04-Oct-2023 09:27:50.303 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 499 ms
+04-Oct-2023 09:27:50.379 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+04-Oct-2023 09:27:50.379 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/8.5.93]
+04-Oct-2023 09:27:50.395 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]을(를) 배치합니다.
+04-Oct-2023 09:27:50.693 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]에 대한 배치가 [297] 밀리초에 완료되었습니다.
+04-Oct-2023 09:27:50.694 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]을(를) 배치합니다.
+04-Oct-2023 09:27:50.961 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]에 대한 배치가 [267] 밀리초에 완료되었습니다.
+04-Oct-2023 09:27:50.961 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]을(를) 배치합니다.
+04-Oct-2023 09:27:50.998 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]에 대한 배치가 [37] 밀리초에 완료되었습니다.
+04-Oct-2023 09:27:50.998 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]을(를) 배치합니다.
+04-Oct-2023 09:27:51.021 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]에 대한 배치가 [23] 밀리초에 완료되었습니다.
+04-Oct-2023 09:27:51.021 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]을(를) 배치합니다.
+04-Oct-2023 09:27:53.248 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]에 대한 배치가 [2,226] 밀리초에 완료되었습니다.
+04-Oct-2023 09:27:53.259 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+04-Oct-2023 09:27:53.310 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2996 ms
+04-Oct-2023 09:33:18.136 INFO [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+04-Oct-2023 09:33:18.137 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+04-Oct-2023 09:33:18.194 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+04-Oct-2023 09:33:18.242 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+04-Oct-2023 09:33:18.247 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+04-Oct-2023 09:33:21.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/8.5.93
+04-Oct-2023 09:33:21.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Aug 23 2023 22:43:14 UTC
+04-Oct-2023 09:33:21.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  8.5.93.0
+04-Oct-2023 09:33:21.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+04-Oct-2023 09:33:21.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+04-Oct-2023 09:33:21.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+04-Oct-2023 09:33:21.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-11
+04-Oct-2023 09:33:21.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.19+9-LTS-224
+04-Oct-2023 09:33:21.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+04-Oct-2023 09:33:21.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 09:33:21.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 09:33:21.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/conf/logging.properties
+04-Oct-2023 09:33:21.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2023 09:33:21.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2023 09:33:21.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2023 09:33:21.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Oct-2023 09:33:21.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 09:33:21.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 09:33:21.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/temp
+04-Oct-2023 09:33:21.216 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-11\bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\;C:\Users\hbi2\AppData\Local\Microsoft\WindowsApps;C:\Users\hbi2\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-11bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;;.]
+04-Oct-2023 09:33:21.267 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+04-Oct-2023 09:33:21.299 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 468 ms
+04-Oct-2023 09:33:21.352 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+04-Oct-2023 09:33:21.352 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/8.5.93]
+04-Oct-2023 09:33:21.365 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]을(를) 배치합니다.
+04-Oct-2023 09:33:21.632 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]에 대한 배치가 [279] 밀리초에 완료되었습니다.
+04-Oct-2023 09:33:21.632 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]을(를) 배치합니다.
+04-Oct-2023 09:33:21.916 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]에 대한 배치가 [284] 밀리초에 완료되었습니다.
+04-Oct-2023 09:33:21.916 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]을(를) 배치합니다.
+04-Oct-2023 09:33:21.949 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]에 대한 배치가 [33] 밀리초에 완료되었습니다.
+04-Oct-2023 09:33:21.949 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]을(를) 배치합니다.
+04-Oct-2023 09:33:21.972 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]에 대한 배치가 [23] 밀리초에 완료되었습니다.
+04-Oct-2023 09:33:21.972 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]을(를) 배치합니다.
+04-Oct-2023 09:33:22.016 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]에 대한 배치가 [44] 밀리초에 완료되었습니다.
+04-Oct-2023 09:33:22.016 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+04-Oct-2023 09:33:22.066 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 768 ms
+04-Oct-2023 09:36:02.201 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload 컨텍스트 []을(를) 다시 로드합니다.
+04-Oct-2023 09:36:02.201 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 작업이 시작되었습니다.
+04-Oct-2023 09:36:02.243 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 것을 완료했습니다.
+04-Oct-2023 09:36:22.263 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload 컨텍스트 []을(를) 다시 로드합니다.
+04-Oct-2023 09:36:22.263 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 작업이 시작되었습니다.
+04-Oct-2023 09:36:22.286 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 것을 완료했습니다.
+04-Oct-2023 09:36:32.303 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload 컨텍스트 []을(를) 다시 로드합니다.
+04-Oct-2023 09:36:32.304 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 작업이 시작되었습니다.
+04-Oct-2023 09:36:32.322 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.digester.Digester.endElement End event threw exception
+	java.lang.reflect.InvocationTargetException
+		at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.tomcat.util.IntrospectionUtils.callMethodN(IntrospectionUtils.java:449)
+		at org.apache.tomcat.util.descriptor.web.CallMethodMultiRule.end(WebRuleSet.java:1046)
+		at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1001)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:610)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1718)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2883)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1496)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1068)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:780)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:300)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4804)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3547)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1435)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1407)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1646)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1333)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1337)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1305)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.lang.IllegalArgumentException: 이름이 [MainPage]과 [MainPage]인 두 서블릿들 모두 url-pattern [/main]에 매핑되어 있는데, 이는 허용되지 않습니다.
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:351)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:344)
+		... 35 more
+04-Oct-2023 09:36:32.325 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml [file:/C:/Users/hbi2/Desktop/apache-tomcat-8.5.93/webapps/ROOT/WEB-INF/web.xml]에 위치한 애플리케이션 web.xml 내에서 파싱 오류 발생
+	org.xml.sax.SAXParseException; systemId: file:/C:/Users/hbi2/Desktop/apache-tomcat-8.5.93/webapps/ROOT/WEB-INF/web.xml; lineNumber: 47; columnNumber: 23; Error at (47, 23) : 이름이 [MainPage]과 [MainPage]인 두 서블릿들 모두 url-pattern [/main]에 매핑되어 있는데, 이는 허용되지 않습니다.
+		at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:1932)
+		at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:1964)
+		at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1004)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:610)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1718)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2883)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1496)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1068)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:780)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:300)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4804)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3547)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1435)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1407)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1646)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1333)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1337)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1305)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.lang.IllegalArgumentException: 이름이 [MainPage]과 [MainPage]인 두 서블릿들 모두 url-pattern [/main]에 매핑되어 있는데, 이는 허용되지 않습니다.
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:351)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:344)
+		at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.tomcat.util.IntrospectionUtils.callMethodN(IntrospectionUtils.java:449)
+		at org.apache.tomcat.util.descriptor.web.CallMethodMultiRule.end(WebRuleSet.java:1046)
+		at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1001)
+		... 29 more
+04-Oct-2023 09:36:32.326 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml 행 [47], 열 [23]에서 발생했음
+04-Oct-2023 09:36:32.329 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ContextConfig.configureStart 이전 오류(들)로 인하여, 이 애플리케이션이 가용하지 않은 것으로 표시합니다.
+04-Oct-2023 09:36:32.329 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.startInternal 하나 이상의 구성요소(들)이, 해당 컨텍스트가 올바로 설정되지 않았다고 표시했습니다.
+04-Oct-2023 09:36:32.332 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.startInternal 이전 오류들로 인해 컨텍스트 []의 시작이 실패했습니다.
+04-Oct-2023 09:36:32.340 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 것을 완료했습니다.
+04-Oct-2023 09:36:42.352 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload 컨텍스트 []을(를) 다시 로드합니다.
+04-Oct-2023 09:36:42.355 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.digester.Digester.endElement End event threw exception
+	java.lang.reflect.InvocationTargetException
+		at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.tomcat.util.IntrospectionUtils.callMethodN(IntrospectionUtils.java:449)
+		at org.apache.tomcat.util.descriptor.web.CallMethodMultiRule.end(WebRuleSet.java:1046)
+		at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1001)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:610)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1718)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2883)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1496)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1068)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:780)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:300)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4804)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1444)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1407)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1646)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1333)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1337)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1305)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.lang.IllegalArgumentException: 이름이 [MainPage]과 [MainPage]인 두 서블릿들 모두 url-pattern [/main]에 매핑되어 있는데, 이는 허용되지 않습니다.
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:351)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:344)
+		... 34 more
+04-Oct-2023 09:36:42.355 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml [file:/C:/Users/hbi2/Desktop/apache-tomcat-8.5.93/webapps/ROOT/WEB-INF/web.xml]에 위치한 애플리케이션 web.xml 내에서 파싱 오류 발생
+	org.xml.sax.SAXParseException; systemId: file:/C:/Users/hbi2/Desktop/apache-tomcat-8.5.93/webapps/ROOT/WEB-INF/web.xml; lineNumber: 47; columnNumber: 23; Error at (47, 23) : 이름이 [MainPage]과 [MainPage]인 두 서블릿들 모두 url-pattern [/main]에 매핑되어 있는데, 이는 허용되지 않습니다.
+		at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:1932)
+		at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:1964)
+		at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1004)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:610)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1718)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2883)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1496)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1068)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:780)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:300)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4804)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1444)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1407)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1646)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1333)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1337)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1305)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.lang.IllegalArgumentException: 이름이 [MainPage]과 [MainPage]인 두 서블릿들 모두 url-pattern [/main]에 매핑되어 있는데, 이는 허용되지 않습니다.
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:351)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:344)
+		at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.tomcat.util.IntrospectionUtils.callMethodN(IntrospectionUtils.java:449)
+		at org.apache.tomcat.util.descriptor.web.CallMethodMultiRule.end(WebRuleSet.java:1046)
+		at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1001)
+		... 28 more
+04-Oct-2023 09:36:42.355 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml 행 [47], 열 [23]에서 발생했음
+04-Oct-2023 09:36:42.355 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ContextConfig.configureStart 이전 오류(들)로 인하여, 이 애플리케이션이 가용하지 않은 것으로 표시합니다.
+04-Oct-2023 09:36:42.355 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.startInternal 하나 이상의 구성요소(들)이, 해당 컨텍스트가 올바로 설정되지 않았다고 표시했습니다.
+04-Oct-2023 09:36:42.366 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.startInternal 이전 오류들로 인해 컨텍스트 []의 시작이 실패했습니다.
+04-Oct-2023 09:36:52.374 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload 컨텍스트 []을(를) 다시 로드합니다.
+04-Oct-2023 09:36:52.376 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.digester.Digester.endElement End event threw exception
+	java.lang.reflect.InvocationTargetException
+		at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.tomcat.util.IntrospectionUtils.callMethodN(IntrospectionUtils.java:449)
+		at org.apache.tomcat.util.descriptor.web.CallMethodMultiRule.end(WebRuleSet.java:1046)
+		at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1001)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:610)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1718)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2883)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1496)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1068)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:780)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:300)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4804)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1444)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1407)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1646)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1333)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1337)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1305)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.lang.IllegalArgumentException: 이름이 [MainPage]과 [LoginPage]인 두 서블릿들 모두 url-pattern [/main]에 매핑되어 있는데, 이는 허용되지 않습니다.
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:351)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:344)
+		... 34 more
+04-Oct-2023 09:36:52.376 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml [file:/C:/Users/hbi2/Desktop/apache-tomcat-8.5.93/webapps/ROOT/WEB-INF/web.xml]에 위치한 애플리케이션 web.xml 내에서 파싱 오류 발생
+	org.xml.sax.SAXParseException; systemId: file:/C:/Users/hbi2/Desktop/apache-tomcat-8.5.93/webapps/ROOT/WEB-INF/web.xml; lineNumber: 47; columnNumber: 23; Error at (47, 23) : 이름이 [MainPage]과 [LoginPage]인 두 서블릿들 모두 url-pattern [/main]에 매핑되어 있는데, 이는 허용되지 않습니다.
+		at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:1932)
+		at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:1964)
+		at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1004)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:610)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1718)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2883)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1496)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1068)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:780)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:300)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4804)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1444)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1407)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1646)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1333)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1337)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1305)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.lang.IllegalArgumentException: 이름이 [MainPage]과 [LoginPage]인 두 서블릿들 모두 url-pattern [/main]에 매핑되어 있는데, 이는 허용되지 않습니다.
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:351)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:344)
+		at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.tomcat.util.IntrospectionUtils.callMethodN(IntrospectionUtils.java:449)
+		at org.apache.tomcat.util.descriptor.web.CallMethodMultiRule.end(WebRuleSet.java:1046)
+		at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1001)
+		... 28 more
+04-Oct-2023 09:36:52.376 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml 행 [47], 열 [23]에서 발생했음
+04-Oct-2023 09:36:52.376 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ContextConfig.configureStart 이전 오류(들)로 인하여, 이 애플리케이션이 가용하지 않은 것으로 표시합니다.
+04-Oct-2023 09:36:52.376 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.startInternal 하나 이상의 구성요소(들)이, 해당 컨텍스트가 올바로 설정되지 않았다고 표시했습니다.
+04-Oct-2023 09:36:52.376 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.startInternal 이전 오류들로 인해 컨텍스트 []의 시작이 실패했습니다.
+04-Oct-2023 09:37:02.406 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload 컨텍스트 []을(를) 다시 로드합니다.
+04-Oct-2023 09:37:42.478 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload 컨텍스트 []을(를) 다시 로드합니다.
+04-Oct-2023 09:37:42.479 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 작업이 시작되었습니다.
+04-Oct-2023 09:37:42.509 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 것을 완료했습니다.
+04-Oct-2023 09:37:52.517 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload 컨텍스트 []을(를) 다시 로드합니다.
+04-Oct-2023 09:37:52.517 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 작업이 시작되었습니다.
+04-Oct-2023 09:37:52.620 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 것을 완료했습니다.
+04-Oct-2023 09:38:32.656 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload 컨텍스트 []을(를) 다시 로드합니다.
+04-Oct-2023 09:38:32.656 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 작업이 시작되었습니다.
+04-Oct-2023 09:38:32.678 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 것을 완료했습니다.
+04-Oct-2023 09:38:42.692 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload 컨텍스트 []을(를) 다시 로드합니다.
+04-Oct-2023 09:38:42.692 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 작업이 시작되었습니다.
+04-Oct-2023 09:38:42.720 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 것을 완료했습니다.
+04-Oct-2023 09:38:52.744 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload 컨텍스트 []을(를) 다시 로드합니다.
+04-Oct-2023 09:38:52.744 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 작업이 시작되었습니다.
+04-Oct-2023 09:38:52.777 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 것을 완료했습니다.
+04-Oct-2023 09:39:12.800 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload 컨텍스트 []을(를) 다시 로드합니다.
+04-Oct-2023 09:39:12.800 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 작업이 시작되었습니다.
+04-Oct-2023 09:39:12.823 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 것을 완료했습니다.
+04-Oct-2023 09:39:32.846 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload 컨텍스트 []을(를) 다시 로드합니다.
+04-Oct-2023 09:39:32.846 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 작업이 시작되었습니다.
+04-Oct-2023 09:39:32.865 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 시작하는 중 예외 발생
+	org.apache.catalina.LifecycleException: 구성요소 [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]을(를) 시작하지 못했습니다.
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3547)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1435)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1407)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1646)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1333)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1337)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1305)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.lang.IllegalArgumentException: 서블릿 매핑이 알 수 없는 서블릿 이름 [LoginPage]을(를) 지정하고 있습니다.
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3000)
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:2992)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1339)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1121)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:780)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:300)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4804)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 11 more
+04-Oct-2023 09:39:32.866 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 것을 완료했습니다.
+04-Oct-2023 09:39:42.868 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload 컨텍스트 []을(를) 다시 로드합니다.
+04-Oct-2023 09:55:33.861 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload 컨텍스트 []을(를) 다시 로드합니다.
+04-Oct-2023 09:55:33.861 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 작업이 시작되었습니다.
+04-Oct-2023 09:55:33.882 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.digester.Digester.endElement End event threw exception
+	java.lang.reflect.InvocationTargetException
+		at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.tomcat.util.IntrospectionUtils.callMethodN(IntrospectionUtils.java:449)
+		at org.apache.tomcat.util.descriptor.web.CallMethodMultiRule.end(WebRuleSet.java:1046)
+		at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1001)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:610)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1718)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2883)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1496)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1068)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:780)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:300)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4804)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3547)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1435)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1407)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1646)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1333)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1337)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1305)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.lang.IllegalArgumentException: 이름이 [LoginPage]과 [LoginPage]인 두 서블릿들 모두 url-pattern [/test]에 매핑되어 있는데, 이는 허용되지 않습니다.
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:351)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:344)
+		... 35 more
+04-Oct-2023 09:55:33.882 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml [file:/C:/Users/hbi2/Desktop/apache-tomcat-8.5.93/webapps/ROOT/WEB-INF/web.xml]에 위치한 애플리케이션 web.xml 내에서 파싱 오류 발생
+	org.xml.sax.SAXParseException; systemId: file:/C:/Users/hbi2/Desktop/apache-tomcat-8.5.93/webapps/ROOT/WEB-INF/web.xml; lineNumber: 54; columnNumber: 23; Error at (54, 23) : 이름이 [LoginPage]과 [LoginPage]인 두 서블릿들 모두 url-pattern [/test]에 매핑되어 있는데, 이는 허용되지 않습니다.
+		at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:1932)
+		at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:1964)
+		at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1004)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:610)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1718)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2883)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1496)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1068)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:780)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:300)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4804)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3547)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1435)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1407)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1646)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1333)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1337)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1305)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.lang.IllegalArgumentException: 이름이 [LoginPage]과 [LoginPage]인 두 서블릿들 모두 url-pattern [/test]에 매핑되어 있는데, 이는 허용되지 않습니다.
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:351)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:344)
+		at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.tomcat.util.IntrospectionUtils.callMethodN(IntrospectionUtils.java:449)
+		at org.apache.tomcat.util.descriptor.web.CallMethodMultiRule.end(WebRuleSet.java:1046)
+		at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1001)
+		... 29 more
+04-Oct-2023 09:55:33.883 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml 행 [54], 열 [23]에서 발생했음
+04-Oct-2023 09:55:33.883 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ContextConfig.configureStart 이전 오류(들)로 인하여, 이 애플리케이션이 가용하지 않은 것으로 표시합니다.
+04-Oct-2023 09:55:33.883 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.startInternal 하나 이상의 구성요소(들)이, 해당 컨텍스트가 올바로 설정되지 않았다고 표시했습니다.
+04-Oct-2023 09:55:33.883 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.startInternal 이전 오류들로 인해 컨텍스트 []의 시작이 실패했습니다.
+04-Oct-2023 09:55:33.883 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 것을 완료했습니다.
+04-Oct-2023 09:55:43.887 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload 컨텍스트 []을(를) 다시 로드합니다.
+04-Oct-2023 09:55:43.893 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.digester.Digester.endElement End event threw exception
+	java.lang.reflect.InvocationTargetException
+		at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.tomcat.util.IntrospectionUtils.callMethodN(IntrospectionUtils.java:449)
+		at org.apache.tomcat.util.descriptor.web.CallMethodMultiRule.end(WebRuleSet.java:1046)
+		at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1001)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:610)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1718)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2883)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1496)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1068)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:780)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:300)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4804)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1444)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1407)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1646)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1333)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1337)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1305)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.lang.IllegalArgumentException: 이름이 [LoginPage]과 [RegisternPage]인 두 서블릿들 모두 url-pattern [/test]에 매핑되어 있는데, 이는 허용되지 않습니다.
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:351)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:344)
+		... 34 more
+04-Oct-2023 09:55:43.893 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml [file:/C:/Users/hbi2/Desktop/apache-tomcat-8.5.93/webapps/ROOT/WEB-INF/web.xml]에 위치한 애플리케이션 web.xml 내에서 파싱 오류 발생
+	org.xml.sax.SAXParseException; systemId: file:/C:/Users/hbi2/Desktop/apache-tomcat-8.5.93/webapps/ROOT/WEB-INF/web.xml; lineNumber: 54; columnNumber: 23; Error at (54, 23) : 이름이 [LoginPage]과 [RegisternPage]인 두 서블릿들 모두 url-pattern [/test]에 매핑되어 있는데, 이는 허용되지 않습니다.
+		at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:1932)
+		at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:1964)
+		at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1004)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:610)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1718)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2883)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1496)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1068)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:780)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:300)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4804)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1444)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1407)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1646)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1333)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1337)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1305)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.lang.IllegalArgumentException: 이름이 [LoginPage]과 [RegisternPage]인 두 서블릿들 모두 url-pattern [/test]에 매핑되어 있는데, 이는 허용되지 않습니다.
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:351)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:344)
+		at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.tomcat.util.IntrospectionUtils.callMethodN(IntrospectionUtils.java:449)
+		at org.apache.tomcat.util.descriptor.web.CallMethodMultiRule.end(WebRuleSet.java:1046)
+		at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1001)
+		... 28 more
+04-Oct-2023 09:55:43.893 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml 행 [54], 열 [23]에서 발생했음
+04-Oct-2023 09:55:43.893 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload 컨텍스트 []이(가) 다시 시작하는 동안 오류 발생
+	org.apache.catalina.LifecycleException: 구성요소 [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]을(를) 시작하지 못했습니다.
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1444)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1407)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1646)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1333)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1337)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1305)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.lang.IllegalArgumentException: 서블릿 매핑이 알 수 없는 서블릿 이름 [RegisternPage]을(를) 지정하고 있습니다.
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3000)
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:2992)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1339)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1121)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:780)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:300)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4804)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 10 more
+04-Oct-2023 09:55:53.899 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload 컨텍스트 []을(를) 다시 로드합니다.
+04-Oct-2023 09:55:53.902 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload 컨텍스트 []이(가) 다시 시작하는 동안 오류 발생
+	org.apache.catalina.LifecycleException: 구성요소 [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]을(를) 시작하지 못했습니다.
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1444)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1407)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1646)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1333)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1337)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1305)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.lang.IllegalArgumentException: 서블릿 매핑이 알 수 없는 서블릿 이름 [RegisterPage]을(를) 지정하고 있습니다.
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3000)
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:2992)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1339)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1121)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:780)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:300)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4804)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 10 more
+04-Oct-2023 09:56:03.906 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload 컨텍스트 []을(를) 다시 로드합니다.
+04-Oct-2023 09:56:03.918 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload 컨텍스트 []이(가) 다시 시작하는 동안 오류 발생
+	org.apache.catalina.LifecycleException: 구성요소 [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]을(를) 시작하지 못했습니다.
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1444)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1407)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1646)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1333)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1337)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1305)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.lang.IllegalArgumentException: 서블릿 매핑이 알 수 없는 서블릿 이름 [RegisterPage]을(를) 지정하고 있습니다.
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3000)
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:2992)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1339)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1121)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:780)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:300)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4804)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 10 more
+04-Oct-2023 09:56:13.922 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload 컨텍스트 []을(를) 다시 로드합니다.
+04-Oct-2023 10:06:17.206 INFO [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+04-Oct-2023 10:06:17.206 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+04-Oct-2023 10:06:17.228 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+04-Oct-2023 10:06:17.254 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+04-Oct-2023 10:06:17.260 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+04-Oct-2023 10:06:27.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/8.5.93
+04-Oct-2023 10:06:27.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Aug 23 2023 22:43:14 UTC
+04-Oct-2023 10:06:27.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  8.5.93.0
+04-Oct-2023 10:06:27.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+04-Oct-2023 10:06:27.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+04-Oct-2023 10:06:27.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+04-Oct-2023 10:06:27.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-11
+04-Oct-2023 10:06:27.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.19+9-LTS-224
+04-Oct-2023 10:06:27.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+04-Oct-2023 10:06:27.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 10:06:27.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 10:06:27.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/conf/logging.properties
+04-Oct-2023 10:06:27.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2023 10:06:27.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2023 10:06:27.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2023 10:06:27.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Oct-2023 10:06:27.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 10:06:27.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 10:06:27.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/temp
+04-Oct-2023 10:06:27.583 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-11\bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\;C:\Users\hbi2\AppData\Local\Microsoft\WindowsApps;C:\Users\hbi2\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-11bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;;.]
+04-Oct-2023 10:06:27.629 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+04-Oct-2023 10:06:27.651 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 431 ms
+04-Oct-2023 10:06:27.702 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+04-Oct-2023 10:06:27.702 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/8.5.93]
+04-Oct-2023 10:06:27.715 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]을(를) 배치합니다.
+04-Oct-2023 10:06:27.983 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]에 대한 배치가 [269] 밀리초에 완료되었습니다.
+04-Oct-2023 10:06:27.983 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]을(를) 배치합니다.
+04-Oct-2023 10:06:28.274 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]에 대한 배치가 [291] 밀리초에 완료되었습니다.
+04-Oct-2023 10:06:28.274 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]을(를) 배치합니다.
+04-Oct-2023 10:06:28.303 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]에 대한 배치가 [29] 밀리초에 완료되었습니다.
+04-Oct-2023 10:06:28.303 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]을(를) 배치합니다.
+04-Oct-2023 10:06:28.327 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]에 대한 배치가 [24] 밀리초에 완료되었습니다.
+04-Oct-2023 10:06:28.327 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]을(를) 배치합니다.
+04-Oct-2023 10:06:28.400 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]에 대한 배치가 [73] 밀리초에 완료되었습니다.
+04-Oct-2023 10:06:28.406 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+04-Oct-2023 10:06:28.462 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 810 ms
+04-Oct-2023 10:12:02.778 INFO [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+04-Oct-2023 10:12:02.778 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+04-Oct-2023 10:12:02.804 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+04-Oct-2023 10:12:02.833 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+04-Oct-2023 10:12:02.850 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+04-Oct-2023 10:12:05.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/8.5.93
+04-Oct-2023 10:12:05.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Aug 23 2023 22:43:14 UTC
+04-Oct-2023 10:12:05.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  8.5.93.0
+04-Oct-2023 10:12:05.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+04-Oct-2023 10:12:05.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+04-Oct-2023 10:12:05.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+04-Oct-2023 10:12:05.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-11
+04-Oct-2023 10:12:05.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.19+9-LTS-224
+04-Oct-2023 10:12:05.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+04-Oct-2023 10:12:05.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 10:12:05.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 10:12:05.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/conf/logging.properties
+04-Oct-2023 10:12:05.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2023 10:12:05.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2023 10:12:05.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2023 10:12:05.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Oct-2023 10:12:05.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 10:12:05.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 10:12:05.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/temp
+04-Oct-2023 10:12:05.361 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-11\bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\;C:\Users\hbi2\AppData\Local\Microsoft\WindowsApps;C:\Users\hbi2\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-11bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;;.]
+04-Oct-2023 10:12:05.437 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+04-Oct-2023 10:12:05.455 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 433 ms
+04-Oct-2023 10:12:05.500 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+04-Oct-2023 10:12:05.500 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/8.5.93]
+04-Oct-2023 10:12:05.512 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]을(를) 배치합니다.
+04-Oct-2023 10:12:05.760 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]에 대한 배치가 [247] 밀리초에 완료되었습니다.
+04-Oct-2023 10:12:05.760 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]을(를) 배치합니다.
+04-Oct-2023 10:12:06.014 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]에 대한 배치가 [254] 밀리초에 완료되었습니다.
+04-Oct-2023 10:12:06.014 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]을(를) 배치합니다.
+04-Oct-2023 10:12:06.053 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]에 대한 배치가 [39] 밀리초에 완료되었습니다.
+04-Oct-2023 10:12:06.053 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]을(를) 배치합니다.
+04-Oct-2023 10:12:06.075 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]에 대한 배치가 [22] 밀리초에 완료되었습니다.
+04-Oct-2023 10:12:06.075 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]을(를) 배치합니다.
+04-Oct-2023 10:12:06.476 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]에 대한 배치가 [401] 밀리초에 완료되었습니다.
+04-Oct-2023 10:12:06.487 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+04-Oct-2023 10:12:06.539 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1083 ms
+04-Oct-2023 10:23:00.141 INFO [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+04-Oct-2023 10:23:00.141 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+04-Oct-2023 10:23:00.179 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+04-Oct-2023 10:23:00.223 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+04-Oct-2023 10:23:00.228 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+04-Oct-2023 10:24:49.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/8.5.93
+04-Oct-2023 10:24:49.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Aug 23 2023 22:43:14 UTC
+04-Oct-2023 10:24:49.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  8.5.93.0
+04-Oct-2023 10:24:49.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+04-Oct-2023 10:24:49.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+04-Oct-2023 10:24:49.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+04-Oct-2023 10:24:49.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-11
+04-Oct-2023 10:24:49.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.19+9-LTS-224
+04-Oct-2023 10:24:49.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+04-Oct-2023 10:24:49.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 10:24:49.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 10:24:49.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/conf/logging.properties
+04-Oct-2023 10:24:49.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2023 10:24:49.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2023 10:24:49.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2023 10:24:49.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Oct-2023 10:24:49.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 10:24:49.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 10:24:49.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/temp
+04-Oct-2023 10:24:49.460 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-11\bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\;C:\Users\hbi2\AppData\Local\Microsoft\WindowsApps;C:\Users\hbi2\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-11bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;;.]
+04-Oct-2023 10:24:49.504 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+04-Oct-2023 10:24:49.526 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 412 ms
+04-Oct-2023 10:24:49.570 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+04-Oct-2023 10:24:49.570 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/8.5.93]
+04-Oct-2023 10:24:49.609 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]을(를) 배치합니다.
+04-Oct-2023 10:24:49.889 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]에 대한 배치가 [278] 밀리초에 완료되었습니다.
+04-Oct-2023 10:24:49.889 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]을(를) 배치합니다.
+04-Oct-2023 10:24:50.166 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]에 대한 배치가 [277] 밀리초에 완료되었습니다.
+04-Oct-2023 10:24:50.166 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]을(를) 배치합니다.
+04-Oct-2023 10:24:50.205 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]에 대한 배치가 [39] 밀리초에 완료되었습니다.
+04-Oct-2023 10:24:50.205 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]을(를) 배치합니다.
+04-Oct-2023 10:24:50.221 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]에 대한 배치가 [16] 밀리초에 완료되었습니다.
+04-Oct-2023 10:24:50.221 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]을(를) 배치합니다.
+04-Oct-2023 10:24:50.632 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]에 대한 배치가 [411] 밀리초에 완료되었습니다.
+04-Oct-2023 10:24:50.639 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+04-Oct-2023 10:24:50.690 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1163 ms
+04-Oct-2023 10:35:46.438 INFO [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+04-Oct-2023 10:35:46.439 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+04-Oct-2023 10:35:46.460 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+04-Oct-2023 10:35:46.506 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+04-Oct-2023 10:35:46.510 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+04-Oct-2023 10:36:58.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/8.5.93
+04-Oct-2023 10:36:58.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Aug 23 2023 22:43:14 UTC
+04-Oct-2023 10:36:58.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  8.5.93.0
+04-Oct-2023 10:36:58.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+04-Oct-2023 10:36:58.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+04-Oct-2023 10:36:58.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+04-Oct-2023 10:36:58.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-11
+04-Oct-2023 10:36:58.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.19+9-LTS-224
+04-Oct-2023 10:36:58.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+04-Oct-2023 10:36:58.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 10:36:58.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 10:36:58.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/conf/logging.properties
+04-Oct-2023 10:36:58.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2023 10:36:58.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2023 10:36:58.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2023 10:36:58.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Oct-2023 10:36:58.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 10:36:58.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 10:36:58.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/temp
+04-Oct-2023 10:36:58.482 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-11\bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\;C:\Users\hbi2\AppData\Local\Microsoft\WindowsApps;C:\Users\hbi2\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-11bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;;.]
+04-Oct-2023 10:36:58.531 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+04-Oct-2023 10:36:58.548 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 391 ms
+04-Oct-2023 10:36:58.594 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+04-Oct-2023 10:36:58.594 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/8.5.93]
+04-Oct-2023 10:36:58.610 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]을(를) 배치합니다.
+04-Oct-2023 10:36:58.867 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]에 대한 배치가 [255] 밀리초에 완료되었습니다.
+04-Oct-2023 10:36:58.868 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]을(를) 배치합니다.
+04-Oct-2023 10:36:59.133 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]에 대한 배치가 [265] 밀리초에 완료되었습니다.
+04-Oct-2023 10:36:59.133 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]을(를) 배치합니다.
+04-Oct-2023 10:36:59.163 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]에 대한 배치가 [30] 밀리초에 완료되었습니다.
+04-Oct-2023 10:36:59.164 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]을(를) 배치합니다.
+04-Oct-2023 10:36:59.197 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]에 대한 배치가 [33] 밀리초에 완료되었습니다.
+04-Oct-2023 10:36:59.197 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]을(를) 배치합니다.
+04-Oct-2023 10:36:59.623 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]에 대한 배치가 [426] 밀리초에 완료되었습니다.
+04-Oct-2023 10:36:59.633 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+04-Oct-2023 10:36:59.685 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1130 ms
+04-Oct-2023 10:48:07.643 INFO [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+04-Oct-2023 10:48:07.647 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+04-Oct-2023 10:48:07.677 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+04-Oct-2023 10:48:07.728 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+04-Oct-2023 10:48:07.752 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+04-Oct-2023 10:48:13.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/8.5.93
+04-Oct-2023 10:48:13.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Aug 23 2023 22:43:14 UTC
+04-Oct-2023 10:48:13.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  8.5.93.0
+04-Oct-2023 10:48:13.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+04-Oct-2023 10:48:13.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+04-Oct-2023 10:48:13.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+04-Oct-2023 10:48:13.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-11
+04-Oct-2023 10:48:13.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.19+9-LTS-224
+04-Oct-2023 10:48:13.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+04-Oct-2023 10:48:13.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 10:48:13.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 10:48:13.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/conf/logging.properties
+04-Oct-2023 10:48:13.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2023 10:48:13.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2023 10:48:13.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2023 10:48:13.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Oct-2023 10:48:13.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 10:48:13.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 10:48:13.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/temp
+04-Oct-2023 10:48:13.184 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-11\bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\;C:\Users\hbi2\AppData\Local\Microsoft\WindowsApps;C:\Users\hbi2\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-11bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;;.]
+04-Oct-2023 10:48:13.260 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+04-Oct-2023 10:48:13.283 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 438 ms
+04-Oct-2023 10:48:13.318 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+04-Oct-2023 10:48:13.318 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/8.5.93]
+04-Oct-2023 10:48:13.333 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]을(를) 배치합니다.
+04-Oct-2023 10:48:13.616 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]에 대한 배치가 [283] 밀리초에 완료되었습니다.
+04-Oct-2023 10:48:13.616 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]을(를) 배치합니다.
+04-Oct-2023 10:48:13.886 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]에 대한 배치가 [270] 밀리초에 완료되었습니다.
+04-Oct-2023 10:48:13.886 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]을(를) 배치합니다.
+04-Oct-2023 10:48:13.914 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]에 대한 배치가 [28] 밀리초에 완료되었습니다.
+04-Oct-2023 10:48:13.914 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]을(를) 배치합니다.
+04-Oct-2023 10:48:13.972 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]에 대한 배치가 [58] 밀리초에 완료되었습니다.
+04-Oct-2023 10:48:13.972 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]을(를) 배치합니다.
+04-Oct-2023 10:48:14.020 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]에 대한 배치가 [47] 밀리초에 완료되었습니다.
+04-Oct-2023 10:48:14.022 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+04-Oct-2023 10:48:14.077 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 794 ms
+04-Oct-2023 10:49:16.149 INFO [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+04-Oct-2023 10:49:16.149 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+04-Oct-2023 10:49:16.182 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+04-Oct-2023 10:49:16.248 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+04-Oct-2023 10:49:16.258 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+04-Oct-2023 10:49:18.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/8.5.93
+04-Oct-2023 10:49:18.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Aug 23 2023 22:43:14 UTC
+04-Oct-2023 10:49:18.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  8.5.93.0
+04-Oct-2023 10:49:18.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+04-Oct-2023 10:49:18.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+04-Oct-2023 10:49:18.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+04-Oct-2023 10:49:18.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-11
+04-Oct-2023 10:49:18.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.19+9-LTS-224
+04-Oct-2023 10:49:18.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+04-Oct-2023 10:49:18.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 10:49:18.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 10:49:18.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/conf/logging.properties
+04-Oct-2023 10:49:18.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2023 10:49:18.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2023 10:49:18.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2023 10:49:18.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Oct-2023 10:49:18.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 10:49:18.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 10:49:18.489 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/temp
+04-Oct-2023 10:49:18.489 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-11\bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\;C:\Users\hbi2\AppData\Local\Microsoft\WindowsApps;C:\Users\hbi2\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-11bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;;.]
+04-Oct-2023 10:49:18.520 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+04-Oct-2023 10:49:18.560 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 406 ms
+04-Oct-2023 10:49:18.599 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+04-Oct-2023 10:49:18.599 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/8.5.93]
+04-Oct-2023 10:49:18.618 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]을(를) 배치합니다.
+04-Oct-2023 10:49:18.874 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]에 대한 배치가 [256] 밀리초에 완료되었습니다.
+04-Oct-2023 10:49:18.874 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]을(를) 배치합니다.
+04-Oct-2023 10:49:19.149 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]에 대한 배치가 [275] 밀리초에 완료되었습니다.
+04-Oct-2023 10:49:19.149 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]을(를) 배치합니다.
+04-Oct-2023 10:49:19.182 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]에 대한 배치가 [33] 밀리초에 완료되었습니다.
+04-Oct-2023 10:49:19.182 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]을(를) 배치합니다.
+04-Oct-2023 10:49:19.218 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]에 대한 배치가 [36] 밀리초에 완료되었습니다.
+04-Oct-2023 10:49:19.218 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]을(를) 배치합니다.
+04-Oct-2023 10:49:19.266 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]에 대한 배치가 [48] 밀리초에 완료되었습니다.
+04-Oct-2023 10:49:19.266 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+04-Oct-2023 10:49:19.332 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 778 ms
+04-Oct-2023 11:25:56.460 INFO [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+04-Oct-2023 11:25:56.461 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+04-Oct-2023 11:25:56.481 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+04-Oct-2023 11:25:56.559 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+04-Oct-2023 11:25:56.562 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+04-Oct-2023 11:26:15.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/8.5.93
+04-Oct-2023 11:26:15.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Aug 23 2023 22:43:14 UTC
+04-Oct-2023 11:26:15.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  8.5.93.0
+04-Oct-2023 11:26:15.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+04-Oct-2023 11:26:15.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+04-Oct-2023 11:26:15.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+04-Oct-2023 11:26:15.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-11
+04-Oct-2023 11:26:15.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.19+9-LTS-224
+04-Oct-2023 11:26:15.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+04-Oct-2023 11:26:15.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 11:26:15.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 11:26:15.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=localhost:65399
+04-Oct-2023 11:26:15.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/conf/logging.properties
+04-Oct-2023 11:26:15.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2023 11:26:15.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2023 11:26:15.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2023 11:26:15.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Oct-2023 11:26:15.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 11:26:15.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 11:26:15.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/temp
+04-Oct-2023 11:26:15.905 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-11\bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\;C:\Users\hbi2\AppData\Local\Microsoft\WindowsApps;C:\Users\hbi2\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-11bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;;.]
+04-Oct-2023 11:26:15.989 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+04-Oct-2023 11:26:16.019 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 679 ms
+04-Oct-2023 11:26:16.088 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+04-Oct-2023 11:26:16.088 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/8.5.93]
+04-Oct-2023 11:26:16.122 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]을(를) 배치합니다.
+04-Oct-2023 11:26:16.528 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]에 대한 배치가 [404] 밀리초에 완료되었습니다.
+04-Oct-2023 11:26:16.528 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]을(를) 배치합니다.
+04-Oct-2023 11:26:16.862 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]에 대한 배치가 [334] 밀리초에 완료되었습니다.
+04-Oct-2023 11:26:16.862 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]을(를) 배치합니다.
+04-Oct-2023 11:26:16.929 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]에 대한 배치가 [67] 밀리초에 완료되었습니다.
+04-Oct-2023 11:26:16.929 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]을(를) 배치합니다.
+04-Oct-2023 11:26:16.971 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]에 대한 배치가 [42] 밀리초에 완료되었습니다.
+04-Oct-2023 11:26:16.971 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]을(를) 배치합니다.
+04-Oct-2023 11:26:17.046 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]에 대한 배치가 [75] 밀리초에 완료되었습니다.
+04-Oct-2023 11:26:17.061 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+04-Oct-2023 11:26:17.128 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1109 ms
+04-Oct-2023 11:26:21.009 INFO [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+04-Oct-2023 11:26:21.009 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+04-Oct-2023 11:26:21.037 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+04-Oct-2023 11:26:21.075 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+04-Oct-2023 11:26:21.085 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+04-Oct-2023 11:26:23.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/8.5.93
+04-Oct-2023 11:26:23.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Aug 23 2023 22:43:14 UTC
+04-Oct-2023 11:26:23.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  8.5.93.0
+04-Oct-2023 11:26:23.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+04-Oct-2023 11:26:23.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+04-Oct-2023 11:26:23.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+04-Oct-2023 11:26:23.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-11
+04-Oct-2023 11:26:23.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.19+9-LTS-224
+04-Oct-2023 11:26:23.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+04-Oct-2023 11:26:23.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 11:26:23.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 11:26:23.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/conf/logging.properties
+04-Oct-2023 11:26:23.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2023 11:26:23.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2023 11:26:23.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2023 11:26:23.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Oct-2023 11:26:23.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 11:26:23.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 11:26:23.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/temp
+04-Oct-2023 11:26:23.307 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-11\bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\;C:\Users\hbi2\AppData\Local\Microsoft\WindowsApps;C:\Users\hbi2\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-11bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;;.]
+04-Oct-2023 11:26:23.369 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+04-Oct-2023 11:26:23.386 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 423 ms
+04-Oct-2023 11:26:23.469 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+04-Oct-2023 11:26:23.469 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/8.5.93]
+04-Oct-2023 11:26:23.486 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]을(를) 배치합니다.
+04-Oct-2023 11:26:23.762 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]에 대한 배치가 [276] 밀리초에 완료되었습니다.
+04-Oct-2023 11:26:23.770 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]을(를) 배치합니다.
+04-Oct-2023 11:26:24.069 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]에 대한 배치가 [299] 밀리초에 완료되었습니다.
+04-Oct-2023 11:26:24.069 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]을(를) 배치합니다.
+04-Oct-2023 11:26:24.097 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]에 대한 배치가 [28] 밀리초에 완료되었습니다.
+04-Oct-2023 11:26:24.097 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]을(를) 배치합니다.
+04-Oct-2023 11:26:24.118 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]에 대한 배치가 [21] 밀리초에 완료되었습니다.
+04-Oct-2023 11:26:24.118 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]을(를) 배치합니다.
+04-Oct-2023 11:26:24.181 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]에 대한 배치가 [63] 밀리초에 완료되었습니다.
+04-Oct-2023 11:26:24.186 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+04-Oct-2023 11:26:24.233 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 835 ms
+04-Oct-2023 11:27:31.873 INFO [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+04-Oct-2023 11:27:31.874 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+04-Oct-2023 11:27:31.908 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+04-Oct-2023 11:27:31.957 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+04-Oct-2023 11:27:31.991 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+04-Oct-2023 11:27:37.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/8.5.93
+04-Oct-2023 11:27:37.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Aug 23 2023 22:43:14 UTC
+04-Oct-2023 11:27:37.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  8.5.93.0
+04-Oct-2023 11:27:37.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+04-Oct-2023 11:27:37.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+04-Oct-2023 11:27:37.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+04-Oct-2023 11:27:37.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-11
+04-Oct-2023 11:27:37.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.19+9-LTS-224
+04-Oct-2023 11:27:37.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+04-Oct-2023 11:27:37.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 11:27:37.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 11:27:37.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/conf/logging.properties
+04-Oct-2023 11:27:37.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2023 11:27:37.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2023 11:27:37.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2023 11:27:37.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Oct-2023 11:27:37.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 11:27:37.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 11:27:37.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/temp
+04-Oct-2023 11:27:37.676 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-11\bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\;C:\Users\hbi2\AppData\Local\Microsoft\WindowsApps;C:\Users\hbi2\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-11bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;;.]
+04-Oct-2023 11:27:37.745 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+04-Oct-2023 11:27:37.763 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 441 ms
+04-Oct-2023 11:27:37.826 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+04-Oct-2023 11:27:37.827 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/8.5.93]
+04-Oct-2023 11:27:37.865 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]을(를) 배치합니다.
+04-Oct-2023 11:27:38.181 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]에 대한 배치가 [314] 밀리초에 완료되었습니다.
+04-Oct-2023 11:27:38.182 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]을(를) 배치합니다.
+04-Oct-2023 11:27:38.514 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]에 대한 배치가 [332] 밀리초에 완료되었습니다.
+04-Oct-2023 11:27:38.514 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]을(를) 배치합니다.
+04-Oct-2023 11:27:38.553 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]에 대한 배치가 [39] 밀리초에 완료되었습니다.
+04-Oct-2023 11:27:38.553 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]을(를) 배치합니다.
+04-Oct-2023 11:27:38.587 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]에 대한 배치가 [34] 밀리초에 완료되었습니다.
+04-Oct-2023 11:27:38.587 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]을(를) 배치합니다.
+04-Oct-2023 11:27:39.111 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]에 대한 배치가 [524] 밀리초에 완료되었습니다.
+04-Oct-2023 11:27:39.111 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+04-Oct-2023 11:27:39.196 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1429 ms
+04-Oct-2023 11:47:00.242 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload 컨텍스트 []을(를) 다시 로드합니다.
+04-Oct-2023 11:47:00.243 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 작업이 시작되었습니다.
+04-Oct-2023 11:47:00.363 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 것을 완료했습니다.
+04-Oct-2023 11:47:10.382 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload 컨텍스트 []을(를) 다시 로드합니다.
+04-Oct-2023 11:47:10.382 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 작업이 시작되었습니다.
+04-Oct-2023 11:47:10.409 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 것을 완료했습니다.
+04-Oct-2023 11:50:40.599 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload 컨텍스트 []을(를) 다시 로드합니다.
+04-Oct-2023 11:50:40.600 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 작업이 시작되었습니다.
+04-Oct-2023 11:50:40.628 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 것을 완료했습니다.
+04-Oct-2023 11:51:00.644 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload 컨텍스트 []을(를) 다시 로드합니다.
+04-Oct-2023 11:51:00.644 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 작업이 시작되었습니다.
+04-Oct-2023 11:51:00.727 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 것을 완료했습니다.
+04-Oct-2023 11:58:25.671 INFO [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+04-Oct-2023 11:58:25.672 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+04-Oct-2023 11:58:25.701 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+04-Oct-2023 11:58:25.738 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+04-Oct-2023 11:58:25.759 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+04-Oct-2023 11:58:28.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/8.5.93
+04-Oct-2023 11:58:28.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Aug 23 2023 22:43:14 UTC
+04-Oct-2023 11:58:28.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  8.5.93.0
+04-Oct-2023 11:58:28.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+04-Oct-2023 11:58:28.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+04-Oct-2023 11:58:28.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+04-Oct-2023 11:58:28.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-11
+04-Oct-2023 11:58:28.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.19+9-LTS-224
+04-Oct-2023 11:58:28.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+04-Oct-2023 11:58:28.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 11:58:28.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 11:58:28.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/conf/logging.properties
+04-Oct-2023 11:58:28.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2023 11:58:28.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2023 11:58:28.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2023 11:58:28.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Oct-2023 11:58:28.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 11:58:28.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 11:58:28.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/temp
+04-Oct-2023 11:58:28.419 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-11\bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\;C:\Users\hbi2\AppData\Local\Microsoft\WindowsApps;C:\Users\hbi2\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-11bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;;.]
+04-Oct-2023 11:58:28.468 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+04-Oct-2023 11:58:28.500 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 425 ms
+04-Oct-2023 11:58:28.555 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+04-Oct-2023 11:58:28.555 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/8.5.93]
+04-Oct-2023 11:58:28.568 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]을(를) 배치합니다.
+04-Oct-2023 11:58:28.821 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]에 대한 배치가 [252] 밀리초에 완료되었습니다.
+04-Oct-2023 11:58:28.821 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]을(를) 배치합니다.
+04-Oct-2023 11:58:29.070 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]에 대한 배치가 [249] 밀리초에 완료되었습니다.
+04-Oct-2023 11:58:29.070 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]을(를) 배치합니다.
+04-Oct-2023 11:58:29.103 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]에 대한 배치가 [33] 밀리초에 완료되었습니다.
+04-Oct-2023 11:58:29.103 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]을(를) 배치합니다.
+04-Oct-2023 11:58:29.134 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]에 대한 배치가 [31] 밀리초에 완료되었습니다.
+04-Oct-2023 11:58:29.134 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]을(를) 배치합니다.
+04-Oct-2023 11:58:29.526 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]에 대한 배치가 [392] 밀리초에 완료되었습니다.
+04-Oct-2023 11:58:29.560 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+04-Oct-2023 11:58:29.621 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1120 ms
+04-Oct-2023 12:18:55.408 INFO [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+04-Oct-2023 12:18:55.412 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+04-Oct-2023 12:18:55.439 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+04-Oct-2023 12:18:55.482 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+04-Oct-2023 12:18:55.499 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+04-Oct-2023 12:19:02.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/8.5.93
+04-Oct-2023 12:19:02.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Aug 23 2023 22:43:14 UTC
+04-Oct-2023 12:19:02.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  8.5.93.0
+04-Oct-2023 12:19:02.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+04-Oct-2023 12:19:02.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+04-Oct-2023 12:19:02.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+04-Oct-2023 12:19:02.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-11
+04-Oct-2023 12:19:02.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.19+9-LTS-224
+04-Oct-2023 12:19:02.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+04-Oct-2023 12:19:02.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 12:19:02.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 12:19:02.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/conf/logging.properties
+04-Oct-2023 12:19:02.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2023 12:19:02.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2023 12:19:02.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2023 12:19:02.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Oct-2023 12:19:02.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 12:19:02.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 12:19:02.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/temp
+04-Oct-2023 12:19:02.962 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-11\bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\;C:\Users\hbi2\AppData\Local\Microsoft\WindowsApps;C:\Users\hbi2\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-11bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;;.]
+04-Oct-2023 12:19:03.017 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+04-Oct-2023 12:19:03.045 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 439 ms
+04-Oct-2023 12:19:03.132 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+04-Oct-2023 12:19:03.132 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/8.5.93]
+04-Oct-2023 12:19:03.146 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]을(를) 배치합니다.
+04-Oct-2023 12:19:03.425 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]에 대한 배치가 [277] 밀리초에 완료되었습니다.
+04-Oct-2023 12:19:03.425 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]을(를) 배치합니다.
+04-Oct-2023 12:19:03.692 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]에 대한 배치가 [267] 밀리초에 완료되었습니다.
+04-Oct-2023 12:19:03.692 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]을(를) 배치합니다.
+04-Oct-2023 12:19:03.726 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]에 대한 배치가 [34] 밀리초에 완료되었습니다.
+04-Oct-2023 12:19:03.726 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]을(를) 배치합니다.
+04-Oct-2023 12:19:03.749 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]에 대한 배치가 [23] 밀리초에 완료되었습니다.
+04-Oct-2023 12:19:03.749 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]을(를) 배치합니다.
+04-Oct-2023 12:19:03.832 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]에 대한 배치가 [83] 밀리초에 완료되었습니다.
+04-Oct-2023 12:19:03.835 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+04-Oct-2023 12:19:03.890 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 842 ms
+04-Oct-2023 12:21:58.713 INFO [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+04-Oct-2023 12:21:58.722 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+04-Oct-2023 12:21:58.750 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+04-Oct-2023 12:21:58.817 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+04-Oct-2023 12:21:58.835 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+04-Oct-2023 12:22:04.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/8.5.93
+04-Oct-2023 12:22:04.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Aug 23 2023 22:43:14 UTC
+04-Oct-2023 12:22:04.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  8.5.93.0
+04-Oct-2023 12:22:04.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+04-Oct-2023 12:22:04.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+04-Oct-2023 12:22:04.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+04-Oct-2023 12:22:04.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-11
+04-Oct-2023 12:22:04.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.19+9-LTS-224
+04-Oct-2023 12:22:04.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+04-Oct-2023 12:22:04.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 12:22:04.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 12:22:04.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/conf/logging.properties
+04-Oct-2023 12:22:04.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2023 12:22:04.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2023 12:22:04.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2023 12:22:04.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Oct-2023 12:22:04.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 12:22:04.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 12:22:04.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/temp
+04-Oct-2023 12:22:04.826 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-11\bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\;C:\Users\hbi2\AppData\Local\Microsoft\WindowsApps;C:\Users\hbi2\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-11bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;;.]
+04-Oct-2023 12:22:04.891 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+04-Oct-2023 12:22:04.918 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 433 ms
+04-Oct-2023 12:22:04.967 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+04-Oct-2023 12:22:04.967 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/8.5.93]
+04-Oct-2023 12:22:05.000 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]을(를) 배치합니다.
+04-Oct-2023 12:22:05.258 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]에 대한 배치가 [256] 밀리초에 완료되었습니다.
+04-Oct-2023 12:22:05.258 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]을(를) 배치합니다.
+04-Oct-2023 12:22:05.501 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]에 대한 배치가 [243] 밀리초에 완료되었습니다.
+04-Oct-2023 12:22:05.501 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]을(를) 배치합니다.
+04-Oct-2023 12:22:05.556 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]에 대한 배치가 [55] 밀리초에 완료되었습니다.
+04-Oct-2023 12:22:05.556 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]을(를) 배치합니다.
+04-Oct-2023 12:22:05.584 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]에 대한 배치가 [28] 밀리초에 완료되었습니다.
+04-Oct-2023 12:22:05.584 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]을(를) 배치합니다.
+04-Oct-2023 12:22:05.638 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]에 대한 배치가 [54] 밀리초에 완료되었습니다.
+04-Oct-2023 12:22:05.644 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+04-Oct-2023 12:22:05.714 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 795 ms
+04-Oct-2023 12:25:39.567 INFO [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+04-Oct-2023 12:25:39.568 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+04-Oct-2023 12:25:39.603 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+04-Oct-2023 12:25:39.654 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+04-Oct-2023 12:25:39.667 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+04-Oct-2023 12:25:45.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/8.5.93
+04-Oct-2023 12:25:45.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Aug 23 2023 22:43:14 UTC
+04-Oct-2023 12:25:45.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  8.5.93.0
+04-Oct-2023 12:25:45.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+04-Oct-2023 12:25:45.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+04-Oct-2023 12:25:45.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+04-Oct-2023 12:25:45.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-11
+04-Oct-2023 12:25:45.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.19+9-LTS-224
+04-Oct-2023 12:25:45.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+04-Oct-2023 12:25:45.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 12:25:45.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 12:25:45.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/conf/logging.properties
+04-Oct-2023 12:25:45.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2023 12:25:45.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2023 12:25:45.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2023 12:25:45.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Oct-2023 12:25:45.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 12:25:45.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93
+04-Oct-2023 12:25:45.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=c:\Users\hbi2\Desktop\apache-tomcat-8.5.93/temp
+04-Oct-2023 12:25:45.153 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-11\bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\hbi2\AppData\Local\Programs\Python\Python311\;C:\Users\hbi2\AppData\Local\Microsoft\WindowsApps;C:\Users\hbi2\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-11bin;C:\Users\hbi2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;;.]
+04-Oct-2023 12:25:45.254 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+04-Oct-2023 12:25:45.277 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 480 ms
+04-Oct-2023 12:25:45.365 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+04-Oct-2023 12:25:45.365 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/8.5.93]
+04-Oct-2023 12:25:45.376 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]을(를) 배치합니다.
+04-Oct-2023 12:25:45.908 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+04-Oct-2023 12:25:46.010 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\docs]에 대한 배치가 [632] 밀리초에 완료되었습니다.
+04-Oct-2023 12:25:46.010 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]을(를) 배치합니다.
+04-Oct-2023 12:25:46.408 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+04-Oct-2023 12:25:46.449 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\examples]에 대한 배치가 [439] 밀리초에 완료되었습니다.
+04-Oct-2023 12:25:46.449 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]을(를) 배치합니다.
+04-Oct-2023 12:25:46.695 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+04-Oct-2023 12:25:46.699 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\host-manager]에 대한 배치가 [250] 밀리초에 완료되었습니다.
+04-Oct-2023 12:25:46.699 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]을(를) 배치합니다.
+04-Oct-2023 12:25:46.924 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+04-Oct-2023 12:25:46.927 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\manager]에 대한 배치가 [228] 밀리초에 완료되었습니다.
+04-Oct-2023 12:25:46.927 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]을(를) 배치합니다.
+04-Oct-2023 12:25:47.150 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+04-Oct-2023 12:25:47.181 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\hbi2\Desktop\apache-tomcat-8.5.93\webapps\ROOT]에 대한 배치가 [254] 밀리초에 완료되었습니다.
+04-Oct-2023 12:25:47.186 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+04-Oct-2023 12:25:47.295 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2017 ms
